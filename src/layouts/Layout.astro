@@ -1,0 +1,30 @@
+---
+import '../../design-system/tokens.css';
+import '../../design-system/components/bundle.css';
+import logoLicht from '../../design-system/assets/Logos/arcadia-logo.svg';
+import logoDonker from '../../design-system/assets/Logos/arcadia-logo-dark.svg';
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="nl" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+  </head>
+  <body class="ai-root">
+    <header class="ai-header">
+      <div class="ai-header__inner">
+        <div class="ai-header__brand">
+          <img class="ai-logo--light" src={logoLicht.src} alt="Arcadia" />
+          <img class="ai-logo--dark" src={logoDonker.src} alt="Arcadia" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <slot />
+    </main>
+  </body>
+</html>

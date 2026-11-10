@@ -34,4 +34,19 @@ De projectinstellingen staan in `.codex/config.toml`; uitleg en beperkingen in `
 
 - Bouw de oefenwebsite met Astro en gebruik JavaScript voor interactieve oefeningen en directe feedback. Gebruik Node.js 24 LTS.
 - Leerlingen openen de site vanuit Teams. GitHub Pages is de beoogde host voor de oefenpagina’s. Gebruik de schoolaccounts en laat de school bevestigen welke afgeschermde dienst de scores mag bewaren.
-- De Astro-app is nog niet aangemaakt. Leg de concrete ontwikkel-, bouw- en testcommando's hier vast zodra ze in dit project zijn uitgevoerd en geverifieerd. Leg vast wat getest moet worden bij het betreffende issue.
+- Leg vast wat getest moet worden bij het betreffende issue.
+
+### Lokaal ontwikkelen en testen
+
+Gebruik Node.js 24 LTS en pnpm 11.25.0. Voer deze commando's uit in de projectmap.
+
+| Doel | Commando |
+| --- | --- |
+| Pakketten installeren | `pnpm install` |
+| Chromium voor de browsertests installeren | `pnpm exec playwright install chromium` |
+| De website lokaal starten | `pnpm dev` |
+| Tests voor de werking uitvoeren | `pnpm test` |
+| Browsertests uitvoeren | `pnpm test:e2e` |
+| De website bouwen | `pnpm build` |
+
+De lokale website opent op http://localhost:4321. De browsertests starten zelf een eigen testserver. De gebouwde website staat in `dist/`.

@@ -9,6 +9,8 @@ build/
 .pub-cache/
 .pub/
 coverage/
+playwright-report/
+test-results/
 
 # Tijdelijke teksten voor issues en pull requests
 .tmp/
