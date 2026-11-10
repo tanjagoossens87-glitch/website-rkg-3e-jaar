@@ -101,6 +101,10 @@ Wil je iets anders of verbeteren? Maak er nieuwe issues van met `/create-issues`
 
 In `CLAUDE.md` houdt je AI bij hoe je project in elkaar zit. Dat bestand maak je met de vraag uit stap 4.
 
+## Een oefening toevoegen met Codex
+
+Vraag Codex om een nieuwe pagina te maken in `src/pages/oefeningen/` met een eigen naam en de gedeelde lay-out. Voeg de link toe in `src/pages/index.astro`, met `import.meta.env.BASE_URL` zodat die ook op GitHub Pages werkt. Elke oefening houdt haar eigen inhoud en interactie. Na publicatie kun je de link naar de oefening in Teams delen.
+
 ## Wat zit er in deze map?
 
 | Map of bestand | Inhoud |

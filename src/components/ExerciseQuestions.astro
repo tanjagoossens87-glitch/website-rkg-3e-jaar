@@ -1,0 +1,25 @@
+---
+const { questions } = Astro.props;
+---
+
+{questions.map((question) => (
+  <section class="qa" aria-labelledby={`vraag-${question.id}`} data-question>
+    <h4 class="ask" id={`vraag-${question.id}`}>{question.q}</h4>
+    <div class="opts">
+      {question.opts.map((option, index) => (
+        <button class="opt" type="button" data-answer data-correct={index === question.ans ? 'true' : 'false'} data-reason={question.reasons[index]}>
+          <span class="letter">{'ABCD'[index]}</span>
+          <span>{option}</span>
+        </button>
+      ))}
+    </div>
+    <div class="feed" role="status">
+      <div data-feedback hidden>
+        <strong data-result></strong>
+        <p data-reason-text></p>
+        <p data-correction hidden></p>
+        <p>Volgende stap: {question.forward}</p>
+      </div>
+    </div>
+  </section>
+))}

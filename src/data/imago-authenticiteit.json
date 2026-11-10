@@ -1,0 +1,230 @@
+[
+  {
+    "id": "b1",
+    "group": "g1",
+    "q": "Noor is verlegen, maar haar klas noemt haar arrogant. Welk onderscheid klopt?",
+    "opts": [
+      "Identiteit: arrogant. Werkelijk imago: verlegen.",
+      "Zelfbeeld: arrogant. Gewenst imago: verlegen.",
+      "Identiteit: verlegen. Werkelijk imago: arrogant.",
+      "Zelfbeeld: verlegen. Gewenst imago: arrogant."
+    ],
+    "ans": 2,
+    "reasons": [
+      "Je wisselt identiteit en imago om: arrogant is het oordeel van anderen, niet wat Noor volgens de situatie is.",
+      "We weten niet dat Noor zichzelf arrogant vindt of verlegen wil lijken. Je vult een zelfbeeld en gewenst imago in zonder bewijs.",
+      "Juist. Verlegen is een eigenschap van Noor. Arrogant is hoe haar klasgenoten haar zien.",
+      "We weten niet hoe Noor zichzelf beoordeelt of dat ze arrogant wil overkomen. Ze probeert dat imago niet te krijgen."
+    ],
+    "forward": "Kijk steeds: wat weten we over de persoon, en wat denken de anderen?"
+  },
+  {
+    "id": "b2",
+    "group": "g1",
+    "q": "Waarom ontstaat Noors imago hier passief?",
+    "opts": [
+      "De klasgenoten geven haar stille gedrag zelf een betekenis.",
+      "Noor doet bewust stil om arrogant gevonden te worden.",
+      "Noor vertelt haar klas dat ze zichzelf arrogant vindt.",
+      "De klasgenoten nemen het gewenste imago van Noor over."
+    ],
+    "ans": 0,
+    "reasons": [
+      "Juist. De klas interpreteert (legt uit) wat ze ziet, zonder dat Noor dit imago probeert te maken.",
+      "Dan zou Noor bewust een imago proberen te maken: dat is actief. Maar dat staat niet in de situatie.",
+      "Dan zou het eerst gaan over hoe Noor zichzelf ziet. In het verhaal komt het oordeel van de klasgenoten.",
+      "Noor wil volgens de situatie niet arrogant overkomen. Het oordeel komt van de klasgenoten."
+    ],
+    "forward": "Passief betekent hier: het beeld ontstaat bij anderen, zonder dat je dit doelbewust probeert."
+  },
+  {
+    "id": "b3",
+    "group": "g1",
+    "q": "Wat kun je besluiten over Noors authenticiteit?",
+    "opts": [
+      "Ze is niet authentiek, want haar imago klopt niet.",
+      "Ze wordt authentiek zodra haar klas haar begrijpt.",
+      "Ze is authentiek enkel omdat ze geen imago wilde maken.",
+      "Ze kan authentiek zijn, ook als haar imago verkeerd is."
+    ],
+    "ans": 3,
+    "reasons": [
+      "Je verwart authenticiteit (jezelf niet anders voordoen) met imago (wat anderen denken).",
+      "Begrepen worden is fijn, maar de mening van de klas bepaalt haar echtheid niet.",
+      "Ook wie geen imago probeert te maken, kan zich anders voordoen. Alleen niet plannen bewijst geen authenticiteit.",
+      "Juist. Of ze oprecht is, hangt niet af van het oordeel van haar klasgenoten."
+    ],
+    "forward": "Vraag niet eerst wat anderen vinden, maar of iemands gedrag oprecht past bij wie die is."
+  },
+  {
+    "id": "m1",
+    "group": "g2",
+    "q": "Milan wil stoer lijken, maar vrienden noemen hem een poser. Welke vergelijking klopt?",
+    "opts": [
+      "Gewenst imago: poser. Werkelijk imago: stoer.",
+      "Gewenst imago: stoer. Werkelijk imago: poser.",
+      "Gewenst imago: stoer. Werkelijk imago: rustig.",
+      "Gewenst imago: rustig. Werkelijk imago: poser."
+    ],
+    "ans": 1,
+    "reasons": [
+      "Je wisselt zijn bedoeling en het oordeel van zijn vrienden om.",
+      "Juist. Zijn doel is stoer overkomen. Zijn vrienden vinden dat hij doet alsof: een poser.",
+      "Rustig zegt iets over wie Milan in dit verhaal is, niet over het imago dat zijn vrienden hem geven.",
+      "Rustig hoort bij Milans identiteit of zelfbeeld, niet bij het imago dat hij probeert te maken."
+    ],
+    "forward": "Gewenst imago = wat je hoopt dat anderen zien. Werkelijk imago = hoe ze je werkelijk zien."
+  },
+  {
+    "id": "m2",
+    "group": "g2",
+    "q": "Waarom is Milans gedrag hier niet authentiek?",
+    "opts": [
+      "Hij past zijn gedrag aan wanneer hij bij vrienden is.",
+      "Zijn vrienden noemen hem een poser als ze zijn verhalen horen.",
+      "Hij verzint stoere verhalen om anders te lijken dan hij is.",
+      "Hij wil dat andere leerlingen hem stoer vinden."
+    ],
+    "ans": 2,
+    "reasons": [
+      "Je gedrag aanpassen aan een situatie hoeft niet onecht te zijn. Het probleem is dat Milan verhalen verzint.",
+      "Dat de vrienden hem een poser noemen, is zijn imago. Hun mening alleen bepaalt niet of hij authentiek is.",
+      "Juist. Hij vertelt bewust dingen die niet gebeurd zijn, om zich stoerder voor te doen.",
+      "Een gewenst imago hebben is niet per se onecht. Het bewust verzinnen van verhalen maakt dit gedrag hier onecht."
+    ],
+    "forward": "Vraag wat Milan zelf bewust doet dat niet overeenkomt met de werkelijkheid."
+  },
+  {
+    "id": "m3",
+    "group": "g2",
+    "q": "Wat toont het verschil tussen Milans gewenste en werkelijke imago?",
+    "opts": [
+      "Milan kiest zijn gedrag en bepaalt zo ook hun uiteindelijke oordeel.",
+      "Milan kiest zijn gedrag, maar zijn vrienden vormen zelf hun oordeel.",
+      "Milan krijgt geen imago omdat zijn poging niet goed lukt.",
+      "Milan heeft een stoer imago omdat hij stoere verhalen vertelt."
+    ],
+    "ans": 1,
+    "reasons": [
+      "Ook bij actieve imagovorming blijft het oordeel bij de anderen. Milan kreeg juist niet zijn gewenste imago.",
+      "Juist. Hij kiest wat hij vertelt, maar zijn vrienden vinden hem een poser in plaats van stoer.",
+      "Zijn vrienden hebben wel degelijk een imago van hem: ze noemen hem een poser.",
+      "Je verwart zijn bedoelde imago met zijn werkelijke imago. Zijn vrienden vinden hem niet stoer."
+    ],
+    "forward": "Splits altijd: wat wilde hij bereiken? Wat denken de anderen echt?"
+  },
+  {
+    "id": "l1",
+    "group": "g3",
+    "q": "Waarom kan Lotte tegelijk haar imago beïnvloeden en authentiek zijn?",
+    "opts": [
+      "Ze draagt opvallende kleren en trekt daardoor automatisch aandacht.",
+      "Ze wil dat haar klasgenoten haar creatief vinden en waarderen.",
+      "Ze kan via haar kleding zelf bepalen wat de klas over haar denkt.",
+      "Ze laat bewust een kant van zichzelf zien die echt bij haar past."
+    ],
+    "ans": 3,
+    "reasons": [
+      "Opvallen vertelt ons niets over de echtheid van wat Lotte toont.",
+      "Willen dat anderen je waarderen is niet genoeg om authenticiteit te beoordelen.",
+      "Je kunt een beeld proberen te sturen, maar niet bepalen hoe een ander jou beoordeelt.",
+      "Juist. Lotte is echt creatief en wil die kant van zichzelf tonen. Bewust tonen kan oprecht zijn."
+    ],
+    "forward": "Authentiek betekent niet dat je nooit over je uitstraling nadenkt, maar dat je oprecht blijft."
+  },
+  {
+    "id": "l2",
+    "group": "g3",
+    "q": "Iemand draagt een opvallende jas. Welke conclusie kun je echt trekken?",
+    "opts": [
+      "De jas valt op; waarom de persoon hem draagt, weten we niet.",
+      "De persoon draagt de jas om een creatief imago te krijgen.",
+      "De persoon draagt de jas om gemakkelijker bij een groep te horen.",
+      "De persoon draagt de jas om zich minder onzeker te voelen."
+    ],
+    "ans": 0,
+    "reasons": [
+      "Juist. Je ziet de jas, maar kent het motief (de reden) van die persoon nog niet.",
+      "Dat kan, maar de jas alleen vertelt niets over de bedoeling van de drager.",
+      "Dit is ook een mogelijke reden, maar het is niet bekend in deze situatie.",
+      "Misschien helpt de jas die persoon, maar dat kun je niet zeker weten."
+    ],
+    "forward": "Maak een verschil tussen wat je ziet en de reden die je erbij bedenkt."
+  },
+  {
+    "id": "l3",
+    "group": "g3",
+    "q": "Welke informatie helpt je beoordelen of Lotte authentiek is?",
+    "opts": [
+      "Of haar klasgenoten de kleding mooi of lelijk vinden.",
+      "Of haar kleding meer opvalt dan die van haar vrienden.",
+      "Of ze met haar kleding echt toont wat ze belangrijk vindt.",
+      "Of ze veel positieve reacties krijgt op haar kleding."
+    ],
+    "ans": 2,
+    "reasons": [
+      "Een oordeel van klasgenoten vertelt iets over haar imago, niet rechtstreeks over haar echtheid.",
+      "Hoe sterk kleding opvalt, vertelt niet of iemand zich anders voordoet.",
+      "Juist. Haar echte interesses (wat ze graag doet) en haar bedoeling zijn belangrijk voor authenticiteit.",
+      "Veel likes of complimenten kunnen haar imago tonen, maar zeggen niet of ze oprecht is."
+    ],
+    "forward": "Zoek informatie over wie Lotte is en waarom zij iets toont, niet over de reactie van anderen."
+  },
+  {
+    "id": "a1",
+    "group": "g4",
+    "q": "Monica noemt Augustinus lui; de gelovigen van Hippo prijzen hem. Wat toont dat?",
+    "opts": [
+      "Zijn zelfbeeld verandert zeker van lui naar een goede spreker.",
+      "Hij kiest bewust bij elke groep een ander gewenst imago.",
+      "Zijn moeder heeft ongelijk omdat de andere groep positief is.",
+      "Verschillende mensen kunnen verschillende kanten van hem zien."
+    ],
+    "ans": 3,
+    "reasons": [
+      "Dat anderen hem anders zien, bewijst niet hoe Augustinus zichzelf op beide momenten beoordeelt.",
+      "We hebben hier twee oordelen van anderen, maar geen bewijs dat hij die bewust probeerde te maken.",
+      "Een positief oordeel bewijst niet dat een negatief oordeel van iemand anders onjuist is.",
+      "Juist. Eén persoon kan verschillende imago’s hebben bij verschillende mensen."
+    ],
+    "forward": "Vergelijk de bronnen: wie spreekt en welk deel van Augustinus zien zij?"
+  },
+  {
+    "id": "a2",
+    "group": "g4",
+    "q": "Gelovigen van Hippo vinden Augustinus een goede prediker. Wat volgt daaruit?",
+    "opts": [
+      "Hij vindt zichzelf daarom ook een goede prediker.",
+      "Bij deze groep heeft hij een positief imago als prediker.",
+      "Hij heeft bij alle groepen een even positief imago.",
+      "Hij heeft dit imago bewust bij die groep gemaakt."
+    ],
+    "ans": 1,
+    "reasons": [
+      "Wat de gelovigen denken, vertelt niet automatisch hoe Augustinus zichzelf ziet.",
+      "Juist. De gelovigen waarderen zijn spreken over het geloof. Dat is hun imago van hem.",
+      "De vijf imago’s op p. 16 verschillen juist van elkaar.",
+      "Uit hun positieve oordeel blijkt niet of Augustinus dat imago bewust probeerde te creëren."
+    ],
+    "forward": "Prediker = iemand die voor anderen over het geloof spreekt. Oordeel van anderen = imago."
+  },
+  {
+    "id": "a3",
+    "group": "g4",
+    "q": "Als oude man noemt Augustinus zijn diefstal van peren een fout. Wat leert dit?",
+    "opts": [
+      "Zijn zelfbeeld ligt vast zodra een gebeurtenis voorbij is.",
+      "Zijn zelfbeeld is gelijk aan hoe zijn vrienden hem toen zagen.",
+      "Zijn zelfbeeld kan veranderen: hij kijkt later anders naar zichzelf.",
+      "Zijn zelfbeeld verandert alleen door kritiek van anderen."
+    ],
+    "ans": 2,
+    "reasons": [
+      "De feiten blijven dezelfde, maar hoe iemand zichzelf beoordeelt kan wel veranderen.",
+      "Het beeld van vrienden is een imago, niet automatisch Augustinus’ zelfbeeld.",
+      "Juist. Hij beoordeelt zijn vroegere gedrag als oude man. Dat vertelt hoe hij later naar zichzelf kijkt.",
+      "In dit fragment kijkt hij zelf terug op zijn gedrag. Zijn zelfbeeld hangt niet alleen af van kritiek."
+    ],
+    "forward": "Zelfbeeld = hoe hij zelf naar zichzelf kijkt; een terugblik kan dat beeld veranderen."
+  }
+]

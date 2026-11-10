@@ -1,0 +1,241 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Questions from '../../components/ExerciseQuestions.astro';
+import questions from '../../data/imago-authenticiteit.json';
+import '../../styles/imago-authenticiteit.css';
+---
+
+<Layout title="Imago, zelfbeeld, authenticiteit en kritiek">
+  <div class="exercise">
+    <a href={import.meta.env.BASE_URL}>← Alle oefeningen</a>
+    <div class="top"><span>THEMA GROEIEN · HOOFDSTUK 2 · ANIMO</span><span id="progress" role="status">0 / {questions.length} vragen</span>
+    </div>
+    <section class="hero">
+      <div class="tag">INTERACTIEVE HERHALING · GODSDIENST 3DE JAAR</div>
+      <h1>Imago · zelfbeeld<br><em>Authenticiteit · kritiek</em>
+      </h1>
+      <p>Wie ben je? Hoe zie jij jezelf? Welk <b>imago (beeld)</b> hebben anderen van jou? En kun je zelf beïnvloeden hoe zij je zien?</p>
+      <div class="labels"><span class="pill">eerst uit je hoofd</span><span class="pill">imago: passief en actief</span><span class="pill">gewenst ↔ werkelijk imago</span><span class="pill">authenticiteit</span><span class="pill">Animo p. 16–17</span>
+      </div>
+    </section>
+    <nav class="tabs" aria-label="Onderdelen">
+      <button class="tab" data-to="start" aria-current="step">01 · Haal op + vaktaal</button>
+      <button class="tab" data-to="twee">02 · Twee manieren</button>
+      <button class="tab" data-to="situaties">03 · Drie situaties</button>
+      <button class="tab" data-to="augustinus">04 · Augustinus</button>
+      <button class="tab" data-to="check">05 · Eindcontrole</button>
+    </nav>
+    <section id="start" class="panel">
+      <div class="box">
+        <div class="kicker">01 · Zonder spieken</div>
+        <h2>Wat weet je nog?</h2>
+        <p class="hint">Schrijf eerst je eigen uitleg op. Kijk pas daarna naar het antwoord. <b>Ophalen</b> betekent: iets uit je hoofd proberen te herinneren.</p>
+        <div class="recall grid">
+          <label>1. Identiteit<textarea placeholder="Ik denk dat ..."></textarea>
+          </label>
+          <label>2. Zelfbeeld<textarea placeholder="Volgens mij ..."></textarea>
+          </label>
+          <label>3. Imago<textarea placeholder="Dat is ..."></textarea>
+          </label>
+          <label>4. Authenticiteit<textarea placeholder="Dat betekent ..."></textarea>
+          </label>
+        </div>
+        <div class="actions"><span class="small">Eerst proberen → controleren → verbeteren.</span>
+          <button class="btn" data-reveal="basistermen" aria-controls="basistermen" aria-expanded="false">Controleer je vier antwoorden</button>
+        </div>
+        <div class="reveal" hidden id="basistermen">
+          <div class="grid">
+            <div><b>Identiteit</b>
+              <p>Wie je bent: eigenschappen, relaties, ervaringen en wat belangrijk is voor jou.</p>
+            </div>
+            <div><b>Zelfbeeld</b>
+              <p>Hoe jij jezelf ziet en beoordeelt.</p>
+            </div>
+            <div><b>Imago</b>
+              <p>Hoe anderen jou zien en beoordelen. <b>Beeld</b> betekent hier hetzelfde als <b>imago</b>.</p>
+            </div>
+            <div><b>Authenticiteit</b>
+              <p>Echtheid: je doet je niet bewust anders voor dan je bent. Je probeert trouw te blijven aan jezelf.</p>
+            </div>
+          </div>
+          <div class="note"><b>Verbeter!</b> Kijk opnieuw naar je eigen antwoord. Wat moest je toevoegen of verbeteren?</div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="kicker">02 · Vaktaal uit het verhaal</div>
+        <h2>Vier woorden uit Augustinus</h2>
+        <p class="hint">Probeer ook deze woorden eerst uit je hoofd te verklaren. Daarna mag je de uitleg bekijken.</p>
+        <div class="recall grid">
+          <label>Heiden<textarea placeholder="Ik herinner mij ..."></textarea>
+          </label>
+          <label>Genade<textarea placeholder="Ik herinner mij ..."></textarea>
+          </label>
+          <label>Ketterij<textarea placeholder="Ik herinner mij ..."></textarea>
+          </label>
+          <label>‘Het vlees is zwak’<textarea placeholder="Ik herinner mij ..."></textarea>
+          </label>
+        </div>
+        <div class="actions"><span class="small">Je gebruikt deze woorden straks opnieuw bij Augustinus.</span>
+          <button class="btn" data-reveal="vakantwoorden" aria-controls="vakantwoorden" aria-expanded="false">Controleer de vaktaal</button>
+        </div>
+        <div class="reveal" hidden id="vakantwoorden">
+          <div class="grid">
+            <div class="term"><b>Heiden</b><br>Volgens Animo: iemand die niet in de God van joden of christenen gelooft. Zo iemand kan wél in andere goden geloven.</div>
+            <div class="term"><b>Genade (Animo p. 15)</b><br>Genegenheid (warmte en zorg), liefde of vergeving krijgen binnen een relatie, zomaar, zonder het te verdienen. Dat maakt je dankbaar en kan je aansporen zelf ook liefdevol en vergevingsgezind te zijn. Volgens Animo geloven joden, christenen en moslims dat God mensen onverdiend tegemoetkomt met liefde, bemoediging (moed geven), kracht en vergeving. <b>Augustinus hoopt op die genade van God.</b>
+            </div>
+            <div class="term"><b>Ketterij</b><br>Een opvatting over het geloof die de kerk als verkeerd of afwijkend van haar leer ziet. In Augustinus' tijd werd dit woord gebruikt in conflicten tussen christenen.</div>
+            <div class="term"><b>‘Het vlees is zwak’ (Animo p. 14)</b><br>Je neemt je iets voor, maar je verlangens maken het moeilijk om dat vol te houden. <b>Augustinus wil kuis leven, maar krijgt toch weer een nieuw vriendinnetje (hij begint opnieuw een relatie met een meisje).</b>
+            </div>
+          </div>
+        </div>
+        <div class="note"><b>Woordhulp:</b> <b>niet authentiek</b> betekent dat iemand zich bewust anders voordoet. <b>Onauthentiek</b> bestaat ook als woord, maar <b>niet authentiek</b> is gemakkelijker te begrijpen.</div>
+      </div>
+      <div class="actions"><span class="small">Klaar om toe te passen?</span>
+        <button class="btn next" data-next="twee">Ga naar de twee manieren →</button>
+      </div>
+    </section>
+    <section id="twee" class="panel" hidden>
+      <div class="box">
+        <div class="kicker">02 · Imago ontstaat op twee manieren</div>
+        <h2>Wie probeert het imago te sturen?</h2>
+        <div class="grid">
+          <div class="mini blue">
+            <h3>PASSIEF (zonder dat je het zelf probeert)</h3>
+            <p>Anderen geven jou een imago. Jij doet <b>niet bewust</b> iets om precies dat imago te krijgen.</p>
+            <p><b>Voorbeeld:</b> Emma praat weinig. Klasgenoten noemen haar arrogant (alsof ze zich beter voelt dan anderen), maar ze is verlegen.</p>
+          </div>
+          <div class="mini green">
+            <h3>ACTIEF (zelf bewust iets doen)</h3>
+            <p>Je probeert bewust te <b>beïnvloeden</b> (een beetje te sturen) welk imago anderen van jou krijgen. Dat kan via gedrag, kleding, uitspraken of wat je online toont.</p>
+            <p><b>Voorbeeld:</b> Milan vertelt verzonnen stoere verhalen, omdat hij wil dat de klas hem stoer vindt.</p>
+          </div>
+        </div>
+        <div class="note"><b>Onthoud:</b> Ook als je actief iets probeert uit te stralen (te tonen), vormen anderen zelf een oordeel over jou. Je <b>gewenst imago</b> (wat je wilt bereiken) kan verschillen van je <b>werkelijk imago</b> (wat anderen echt denken).</div>
+        <div class="mini">
+          <h3>Betekent ‘actief’ automatisch ‘niet authentiek’?</h3>
+          <p><b>Nee.</b> Je kunt ook bewust een echt deel van jezelf tonen. Bijvoorbeeld: iemand die graag tekent, kan bewust kleren kiezen die diens creativiteit (nieuwe en originele ideeën kunnen bedenken) tonen.</p>
+          <p>Authenticiteit hangt af van de <b>echtheid van wat je doet</b>, niet van de mening van je klasgenoten.</p>
+        </div>
+      </div>
+      <div class="actions"><span class="small">Je gaat nu drie situaties onderzoeken.</span>
+        <button class="btn next" data-next="situaties">Naar de situaties →</button>
+      </div>
+    </section>
+    <section id="situaties" class="panel" hidden>
+      <div class="box">
+        <div class="kicker">03 · Toepassen</div>
+        <h2>Wat bedoelt de persoon? Wat denken de anderen?</h2>
+        <p class="hint">Let op de woorden <b>zelfbeeld</b>, <b>gewenst imago</b> en <b>werkelijk imago</b>. Ze betekenen niet hetzelfde.</p>
+      </div>
+      <div class="case">
+        <div class="casehead">
+          <div class="kicker">Situatie 1</div>
+          <h3>Noor krijgt een imago dat ze niet wil</h3>
+        </div>
+        <div class="casebody">
+          <p>Noor is vriendelijk maar verlegen. Ze durft weinig te praten. Klasgenoten denken dat ze arrogant is (dat ze zich beter voelt dan anderen).</p>
+          <div class="three">
+            <div class="perspect"><b>Wie Noor is</b>Vriendelijk en verlegen.</div>
+            <div class="perspect"><b>Wat de klas ziet</b>Noor zegt weinig.</div>
+            <div class="perspect"><b>Werkelijk imago</b>De klas vindt haar arrogant.</div>
+          </div><Questions questions={questions.filter((question) => question.group === "g1")} />
+        </div>
+      </div>
+      <div class="case">
+        <div class="casehead">
+          <div class="kicker">Situatie 2</div>
+          <h3>Milan probeert een stoer imago te krijgen</h3>
+        </div>
+        <div class="casebody">
+          <p>Milan is rustig en gevoelig. Hij wil stoer gevonden worden en vertelt daarom verzonnen verhalen over vechtpartijen. Zijn vrienden merken dat zijn verhalen verzonnen zijn. Zij vinden hem een <b>poser (iemand die doet alsof hij stoerder of interessanter is dan hij werkelijk is)</b>.</p>
+          <div class="three">
+            <div class="perspect"><b>Zelfbeeld</b>Hij ziet zichzelf als rustig en gevoelig.</div>
+            <div class="perspect"><b>Gewenst imago</b>Hij wil stoer lijken.</div>
+            <div class="perspect"><b>Werkelijk imago</b>Zijn vrienden vinden hem een poser.</div>
+          </div><Questions questions={questions.filter((question) => question.group === "g2")} />
+        </div>
+      </div>
+      <div class="case">
+        <div class="casehead">
+          <div class="kicker">Situatie 3</div>
+          <h3>Lotte toont bewust haar creativiteit</h3>
+        </div>
+        <div class="casebody">
+          <p>Lotte tekent graag en ontwerpt kleren. Ze is <b>creatief (ze bedenkt nieuwe en originele ideeën)</b> en <b>artistiek (ze houdt van kunst en maakt graag kunst)</b>. Ze draagt bewust opvallende kleren om dat te tonen. Haar klasgenoten vinden haar creatief.</p>
+          <div class="three">
+            <div class="perspect"><b>Wie Lotte is</b>Creatief en graag bezig met kleding ontwerpen.</div>
+            <div class="perspect"><b>Gewenst imago</b>Ze wil dat anderen haar creatief zien.</div>
+            <div class="perspect"><b>Werkelijk imago</b>De klas vindt haar creatief.</div>
+          </div><Questions questions={questions.filter((question) => question.group === "g3")} />
+          <div class="note"><b>Verschil:</b> Lotte toont bewust iets dat echt bij haar past. Milan verzint verhalen om anders te lijken dan hij is. Bij allebei is sprake van actieve imagovorming, maar niet van dezelfde echtheid.</div>
+        </div>
+      </div>
+      <div class="actions"><span class="small">Nu keren we terug naar het verhaal.</span>
+        <button class="btn next" data-next="augustinus">Naar Augustinus →</button>
+      </div>
+    </section>
+    <section id="augustinus" class="panel" hidden>
+      <div class="box">
+        <div class="kicker">04 · Animo p. 16–17</div>
+        <h2>Augustinus heeft verschillende imago’s</h2>
+        <p>Een <b>perspectief</b> is de manier waarop iemand naar een situatie of persoon kijkt. Op p. 16 lezen we <b>vijf verschillende imago’s (beelden)</b> van Augustinus. Ze komen van vijf personen of groepen.</p>
+        <div class="grid">
+          <div class="mini"><b>Zijn moeder (A)</b><br>Ze vindt hem slim, maar ook lui en niet ernstig genoeg met zijn studies.</div>
+          <div class="mini"><b>Faustus (B)</b><br>Hij vindt Augustinus een betweter (iemand die denkt alles beter te weten).</div>
+          <div class="mini"><b>Zijn vrouw (C)</b><br>Ze vindt dat Augustinus zijn belangrijke baan boven haar en hun zoon stelt.</div>
+          <div class="mini"><b>Gelovigen van Hippo (D)</b><br>Ze vinden hem een goede <b>prediker (iemand die voor mensen spreekt over het geloof)</b>.</div>
+          <div class="mini"><b>Donatisten (E)</b><br>Ze zien Augustinus als een tegenstander in een conflict (ruzie of strijd) over het geloof.</div>
+          <div class="mini blue"><b>Zelfbeeld van de oude Augustinus</b><br>In zijn eigen levensverhaal kijkt hij terug op zijn fouten en zonden (wat hij verkeerd deed) en hoopt hij op Gods genade. <b>Dat vertelt iets over hoe hij zichzelf als oude man ziet: zijn zelfbeeld.</b>
+          </div>
+        </div>
+        <div class="note"><b>Imago en zelfbeeld kunnen verschillen.</b> De vijf imago’s komen van anderen. Hoe de oude Augustinus achteraf <b>zichzelf</b> beoordeelt, is zijn <b>zelfbeeld</b>. Ook zijn zelfbeeld kan veranderen doorheen zijn leven.</div><Questions questions={questions.filter((question) => question.group === "g4")} />
+        <h3>Drie mogelijke reacties op kritiek (Animo p. 17)</h3>
+        <div class="three">
+          <div class="mini"><b>1 · Kritiek negeren</b><br>Niet reageren op het oordeel van anderen.</div>
+          <div class="mini"><b>2 · Kritiek weerleggen</b><br>Met redenen uitleggen waarom je het oordeel niet juist vindt.</div>
+          <div class="mini"><b>3 · Rekening houden met het beeld</b><br>Het oordeel van anderen laten meespelen bij je keuzes.</div>
+        </div>
+        <p class="small">Op Animo p. 17 ga je onderzoeken welke reactie bij welke getuigenis past. Dat oefen je daarna zelfstandig in BookWidgets; daarom geven we hier nog niet alle antwoorden. <b>Kritiek</b> betekent dat iemand zegt wat die volgens hem of haar niet goed vindt. <b>Ga na deze herhaling naar de BookWidget in Smartschool: Animo p. 17, vragen 2 en 3.</b>
+        </p>
+      </div>
+      <div class="actions"><span class="small">Lees Animo p. 16–17 nog eens.</span>
+        <button class="btn next" data-next="check">Naar de eindcontrole →</button>
+      </div>
+    </section>
+    <section id="check" class="panel" hidden>
+      <div class="box">
+        <div class="kicker">05 · Controle</div>
+        <h2>Wat kun je nu zelf uitleggen?</h2>
+        <p>Beantwoord deze vier vragen <b>zonder de uitleg opnieuw te lezen</b>. Vergelijk je antwoorden daarna met wat je in het begin schreef.</p>
+        <div class="recall grid">
+          <label>Wat is het verschil tussen zelfbeeld en imago?<textarea></textarea>
+          </label>
+          <label>Wat is het verschil tussen gewenst imago en werkelijk imago?<textarea></textarea>
+          </label>
+          <label>Waarom kan actieve imagovorming tóch authentiek zijn?<textarea></textarea>
+          </label>
+          <label>Leg het woord ‘genade’ uit met Augustinus als voorbeeld.<textarea></textarea>
+          </label>
+        </div>
+        <div class="actions">
+          <button class="btn alt" id="sumButton">Bekijk mijn gecontroleerde vragen</button>
+          <button class="btn alt" id="restart">Start opnieuw</button>
+        </div>
+        <div class="reveal" hidden id="summary" role="status">
+          <div class="scorebig" id="totalScore"></div>
+          <p id="scoreText"></p>
+          <p>Vergeet niet: een score bij herkenvragen betekent nog niet dat je de begrippen al zonder antwoordopties kunt uitleggen.</p>
+        </div>
+      </div>
+      <div class="box" id="naar-bookwidgets">
+        <div class="kicker">06 · Zelfstandig oefenen</div>
+        <h2>Nu naar de BookWidget</h2>
+        <p>Je hebt de begrippen opgefrist. <b>Maak nu de BookWidget bij Animo p. 17, vragen 2 en 3.</b> Open Smartschool → ons vak godsdienst → <b>Oefeningen</b> en kies de BookWidget over <b>zelfbeeld, verschillende imago’s en kritiek bij Augustinus</b>.</p>
+        <div class="note"><b>Wat ga je doen?</b> Je vergelijkt het zelfbeeld van Augustinus met de imago’s die anderen van hem hebben. Daarna bepaal je hoe hij met kritiek omgaat. Gebruik Animo p. 16–17. Denk na vóór je een antwoord kiest.</div>
+        <p class="small">Je leerkracht zet de BookWidget klaar in Smartschool. Deze herhaling bewaart zelf geen antwoorden.</p>
+      </div>
+    </section>
+    <p class="foot">Animo · Groeien · p. 13–17 · Oefenmateriaal – geen leerlingresultaten worden opgeslagen.</p>
+  </div>
+  <script src="../../scripts/imago-authenticiteit.js"></script>
+</Layout>
