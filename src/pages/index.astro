@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = 'Godsdienst voor het derde middelbaar';
+---
+
+<Layout title={title}>
+  <section class="ai-hero">
+    <div class="ai-hero__inner">
+      <div class="ai-hero__text">
+        <h1 class="ai-hero__title">{title}</h1>
+        <p class="ai-hero__lead">Hier vind je de interactieve oefeningen bij de lessen godsdienst.</p>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .ai-hero__inner {
+    grid-template-columns: 1fr;
+  }
+</style>
