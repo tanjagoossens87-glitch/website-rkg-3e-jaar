@@ -5,6 +5,7 @@
 
 html { background: var(--bg); color: var(--ink); font-family: var(--font-sans); font-size: 17px; line-height: 26px; -webkit-font-smoothing: antialiased; }
 body { margin: 0; background: var(--bg); color: var(--ink); }
+:where(.ai-root) a { color: var(--brand-text); text-underline-offset: 3px; }
 *, *::before, *::after { box-sizing: border-box; }
 :where(.ai-root) :focus-visible, .ai-btn:focus-visible, .ai-option:focus-visible, .ai-input:focus-visible, .ai-scale__opt:focus-visible, .ai-baro__seg:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }

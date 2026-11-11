@@ -34,7 +34,7 @@ Een door de school goedgekeurde, afgeschermde dienst bewaart per inzending wie i
 
 ## Vormgeving
 
-De website gebruikt het design system in `design-system/`. Het ontwerp kan later vervangen worden. Oefeningen behouden ruimte voor hun eigen interactieve vorm.
+De website gebruikt het persoonlijke design system in `design-system/`: roomwit, roze, beige, mosterd, roest en donkerbruin, met het woordlogo ‘mevrouw Goossens’ tussen twee kleine kruisjes. Oefeningen behouden ruimte voor hun eigen interactieve vorm.
 
 ## Publicatie
 
